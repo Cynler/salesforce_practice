@@ -125,14 +125,14 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:581px;top:747px" class="cls_017"><span class="cls_017">{!visDecl}</span></div>
 <!-- END SECTION D. VISION PATTERNS -->
 
-<!-- ??? -->
+<!-- SECTION CC. GOALS OF CURE -->
 <div style="position:absolute;left:171px;top:502px" class="cls_017"><span class="cls_017">{!gocsk}</span></div>
 <div style="position:absolute;left:171px;top:518px" class="cls_017"><span class="cls_017">{!goccc}</span></div>
-<div style="position:absolute;left:171px;top:533px" class="cls_017"><span class="cls_017">{!gocrh}</span></div>
+<div style="position:absolute;left:171px;top:531px" class="cls_017"><span class="cls_017">{!gocrh}</span></div>
 <div style="position:absolute;left:286px;top:502px" class="cls_017"><span class="cls_017">{!goccf}</span></div>
 <div style="position:absolute;left:286px;top:518px" class="cls_017"><span class="cls_017">{!gocfr}</span></div>
-<div style="position:absolute;left:286px;top:533px" class="cls_017"><span class="cls_017">{!gocpc}</span></div>
-<!-- END ??? -->
+<div style="position:absolute;left:286px;top:531px" class="cls_017"><span class="cls_017">{!gocpc}</span></div>
+<!-- END SECTION CC. GOALS OF CURE -->
 
 <!--  input end -->
 <div style="position:absolute;left:167.40px;top:16.16px;" class="cls_004"><span class="cls_004">MINIMUM DATA SET - HOME CARE (MDS-HC)©</span></div>
@@ -218,14 +218,14 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:378.96px;top:219.56px" class="cls_003"><span class="cls_003">0. INDEPENDENT&mdash;Decisions consistent/reasonable/safe</span></div>
 
 <!--BIRTHDATE font: 11-->
-<div style="position:absolute;left:98px;top:212px" class="cls_017"><span class="cls_017">{!dob[5]}</span></div>
+<div style="position:absolute;left:96px;top:212px" class="cls_017"><span class="cls_017">{!dob[5]}</span></div>
 <div style="position:absolute;left:110px;top:212px" class="cls_017"><span class="cls_017">{!dob[6]}</span></div>
 <div style="position:absolute;left:140px;top:212px" class="cls_017"><span class="cls_017">{!dob[8]}</span></div>
 <div style="position:absolute;left:154px;top:212px" class="cls_017"><span class="cls_017">{!dob[9]}</span></div>
 <div style="position:absolute;left:182px;top:212px" class="cls_017"><span class="cls_017">{!dob[0]}</span></div>
-<div style="position:absolute;left:198px;top:212px" class="cls_017"><span class="cls_017">{!dob[1]}</span></div>
-<div style="position:absolute;left:212px;top:212px" class="cls_017"><span class="cls_017">{!dob[2]}</span></div>
-<div style="position:absolute;left:228px;top:212px" class="cls_017"><span class="cls_017">{!dob[3]}</span></div>
+<div style="position:absolute;left:195px;top:212px" class="cls_017"><span class="cls_017">{!dob[1]}</span></div>
+<div style="position:absolute;left:211px;top:212px" class="cls_017"><span class="cls_017">{!dob[2]}</span></div>
+<div style="position:absolute;left:225px;top:212px" class="cls_017"><span class="cls_017">{!dob[3]}</span></div>
 <!--END of Change BIRTHDATE-->
 
 <div style="position:absolute;left:95.76px;top:223.52px" class="cls_003"><span class="cls_003">Month</span></div>
@@ -652,24 +652,24 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 
 <!-- Extent of informal help -->
 <apex:outputPanel rendered="{!weekdayHours!=null && weekdayHours.size=1}" >
-<div style="position:absolute;left:585px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[0]}</span></div>
+<div style="position:absolute;left:583px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!weekdayHours!=null && weekdayHours.size=2}" >
-<div style="position:absolute;left:575px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[0]}</span></div>
-<div style="position:absolute;left:585px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[1]}</span></div>
+<div style="position:absolute;left:573px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[0]}</span></div>
+<div style="position:absolute;left:583px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!weekdayHours!=null && weekdayHours.size=3}" >
-<div style="position:absolute;left:565px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[0]}</span></div>
-<div style="position:absolute;left:575px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[1]}</span></div>
-<div style="position:absolute;left:585px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[2]}</span></div>
+<div style="position:absolute;left:562px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[0]}</span></div>
+<div style="position:absolute;left:573px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[1]}</span></div>
+<div style="position:absolute;left:583px;top:203px" class="cls_017"><span class="cls_017">{!weekdayHours[2]}</span></div>
 </apex:outputPanel>
 
 <apex:outputPanel rendered="{!weekendHours!=null && weekendHours.size=1}" >
-<div style="position:absolute;left:585px;top:217px" class="cls_017"><span class="cls_017">{!weekendHours[0]}</span></div>
+<div style="position:absolute;left:583px;top:217px" class="cls_017"><span class="cls_017">{!weekendHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!weekendHours!=null && weekendHours.size=2}" >
-<div style="position:absolute;left:575px;top:217px" class="cls_017"><span class="cls_017">{!weekendHours[0]}</span></div>
-<div style="position:absolute;left:585px;top:217px" class="cls_017"><span class="cls_017">{!weekendHours[1]}</span></div>
+<div style="position:absolute;left:573px;top:217px" class="cls_017"><span class="cls_017">{!weekendHours[0]}</span></div>
+<div style="position:absolute;left:583px;top:217px" class="cls_017"><span class="cls_017">{!weekendHours[1]}</span></div>
 </apex:outputPanel>
 <!-- END SECTION G -->
 
@@ -2084,83 +2084,83 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 </apex:outputPanel>
 <!-- g -->
 <apex:outputPanel rendered="{!otHours!=null && otHours.size=1}" >
-<div style="position:absolute;left:565px;top:686px" class="cls_017"><span class="cls_017">{!otHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:684px" class="cls_017"><span class="cls_017">{!otHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!otHours!=null && otHours.size=2}" >
-<div style="position:absolute;left:553px;top:686px" class="cls_017"><span class="cls_017">{!otHours[0]}</span></div>
-<div style="position:absolute;left:565px;top:686px" class="cls_017"><span class="cls_017">{!otHours[1]}</span></div>
+<div style="position:absolute;left:553px;top:684px" class="cls_017"><span class="cls_017">{!otHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:684px" class="cls_017"><span class="cls_017">{!otHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!otHours!=null && otHours.size=3}" >
-<div style="position:absolute;left:544px;top:686px" class="cls_017"><span class="cls_017">{!otHours[0]}</span></div>
-<div style="position:absolute;left:553px;top:686px" class="cls_017"><span class="cls_017">{!otHours[1]}</span></div>
-<div style="position:absolute;left:565px;top:686px" class="cls_017"><span class="cls_017">{!otHours[2]}</span></div>
+<div style="position:absolute;left:542px;top:684px" class="cls_017"><span class="cls_017">{!otHours[0]}</span></div>
+<div style="position:absolute;left:553px;top:684px" class="cls_017"><span class="cls_017">{!otHours[1]}</span></div>
+<div style="position:absolute;left:562px;top:684px" class="cls_017"><span class="cls_017">{!otHours[2]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!otMins!=null && otMins.size=1}" >
-<div style="position:absolute;left:585px;top:686px" class="cls_017"><span class="cls_017">{!otMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:684px" class="cls_017"><span class="cls_017">{!otMins[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!otMins!=null && otMins.size=2}" >
-<div style="position:absolute;left:575px;top:686px" class="cls_017"><span class="cls_017">{!otMins[0]}</span></div>
-<div style="position:absolute;left:585px;top:686px" class="cls_017"><span class="cls_017">{!otMins[1]}</span></div>
+<div style="position:absolute;left:573px;top:684px" class="cls_017"><span class="cls_017">{!otMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:684px" class="cls_017"><span class="cls_017">{!otMins[1]}</span></div>
 </apex:outputPanel>
 <!-- h -->
 <apex:outputPanel rendered="{!stHours!=null && stHours.size=1}" >
-<div style="position:absolute;left:565px;top:698px" class="cls_017"><span class="cls_017">{!stHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:696px" class="cls_017"><span class="cls_017">{!stHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!stHours!=null && stHours.size=2}" >
-<div style="position:absolute;left:553px;top:698px" class="cls_017"><span class="cls_017">{!stHours[0]}</span></div>
-<div style="position:absolute;left:565px;top:698px" class="cls_017"><span class="cls_017">{!stHours[1]}</span></div>
+<div style="position:absolute;left:553px;top:696px" class="cls_017"><span class="cls_017">{!stHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:696px" class="cls_017"><span class="cls_017">{!stHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!stHours!=null && stHours.size=3}" >
-<div style="position:absolute;left:544px;top:698px" class="cls_017"><span class="cls_017">{!stHours[0]}</span></div>
-<div style="position:absolute;left:553px;top:698px" class="cls_017"><span class="cls_017">{!stHours[1]}</span></div>
-<div style="position:absolute;left:565px;top:698px" class="cls_017"><span class="cls_017">{!stHours[2]}</span></div>
+<div style="position:absolute;left:542px;top:696px" class="cls_017"><span class="cls_017">{!stHours[0]}</span></div>
+<div style="position:absolute;left:553px;top:696px" class="cls_017"><span class="cls_017">{!stHours[1]}</span></div>
+<div style="position:absolute;left:562px;top:696px" class="cls_017"><span class="cls_017">{!stHours[2]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!stMins!=null && stMins.size=1}" >
-<div style="position:absolute;left:585px;top:698px" class="cls_017"><span class="cls_017">{!stMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:696px" class="cls_017"><span class="cls_017">{!stMins[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!stMins!=null && stMins.size=2}" >
-<div style="position:absolute;left:575px;top:698px" class="cls_017"><span class="cls_017">{!stMins[0]}</span></div>
-<div style="position:absolute;left:585px;top:698px" class="cls_017"><span class="cls_017">{!stMins[1]}</span></div>
+<div style="position:absolute;left:573px;top:696px" class="cls_017"><span class="cls_017">{!stMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:696px" class="cls_017"><span class="cls_017">{!stMins[1]}</span></div>
 </apex:outputPanel>
 <!-- i -->
 <apex:outputPanel rendered="{!dcHours!=null && dcHours.size=1}" >
-<div style="position:absolute;left:565px;top:710px" class="cls_017"><span class="cls_017">{!dcHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:708px" class="cls_017"><span class="cls_017">{!dcHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!dcHours!=null && dcHours.size=2}" >
-<div style="position:absolute;left:553px;top:710px" class="cls_017"><span class="cls_017">{!dcHours[0]}</span></div>
-<div style="position:absolute;left:565px;top:710px" class="cls_017"><span class="cls_017">{!dcHours[1]}</span></div>
+<div style="position:absolute;left:553px;top:708px" class="cls_017"><span class="cls_017">{!dcHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:708px" class="cls_017"><span class="cls_017">{!dcHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!dcHours!=null && dcHours.size=3}" >
-<div style="position:absolute;left:544px;top:710px" class="cls_017"><span class="cls_017">{!dcHours[0]}</span></div>
-<div style="position:absolute;left:553px;top:710px" class="cls_017"><span class="cls_017">{!dcHours[1]}</span></div>
-<div style="position:absolute;left:565px;top:710px" class="cls_017"><span class="cls_017">{!dcHours[2]}</span></div>
+<div style="position:absolute;left:542px;top:708px" class="cls_017"><span class="cls_017">{!dcHours[0]}</span></div>
+<div style="position:absolute;left:553px;top:708px" class="cls_017"><span class="cls_017">{!dcHours[1]}</span></div>
+<div style="position:absolute;left:562px;top:708px" class="cls_017"><span class="cls_017">{!dcHours[2]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!dcMins!=null && dcMins.size=1}" >
-<div style="position:absolute;left:585px;top:710px" class="cls_017"><span class="cls_017">{!dcMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:708px" class="cls_017"><span class="cls_017">{!dcMins[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!dcMins!=null && dcMins.size=2}" >
-<div style="position:absolute;left:575px;top:710px" class="cls_017"><span class="cls_017">{!dcMins[0]}</span></div>
-<div style="position:absolute;left:585px;top:710px" class="cls_017"><span class="cls_017">{!dcMins[1]}</span></div>
+<div style="position:absolute;left:573px;top:708px" class="cls_017"><span class="cls_017">{!dcMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:708px" class="cls_017"><span class="cls_017">{!dcMins[1]}</span></div>
 </apex:outputPanel>
 <!-- j -->
 <apex:outputPanel rendered="{!swHours!=null && swHours.size=1}" >
-<div style="position:absolute;left:565px;top:721px" class="cls_017"><span class="cls_017">{!swHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:719px" class="cls_017"><span class="cls_017">{!swHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!swHours!=null && swHours.size=2}" >
-<div style="position:absolute;left:553px;top:721px" class="cls_017"><span class="cls_017">{!swHours[0]}</span></div>
-<div style="position:absolute;left:565px;top:721px" class="cls_017"><span class="cls_017">{!swHours[1]}</span></div>
+<div style="position:absolute;left:553px;top:719px" class="cls_017"><span class="cls_017">{!swHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:719px" class="cls_017"><span class="cls_017">{!swHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!swHours!=null && swHours.size=3}" >
-<div style="position:absolute;left:544px;top:721px" class="cls_017"><span class="cls_017">{!swHours[0]}</span></div>
-<div style="position:absolute;left:553px;top:721px" class="cls_017"><span class="cls_017">{!swHours[1]}</span></div>
-<div style="position:absolute;left:565px;top:721px" class="cls_017"><span class="cls_017">{!swHours[2]}</span></div>
+<div style="position:absolute;left:542px;top:719px" class="cls_017"><span class="cls_017">{!swHours[0]}</span></div>
+<div style="position:absolute;left:553px;top:719px" class="cls_017"><span class="cls_017">{!swHours[1]}</span></div>
+<div style="position:absolute;left:562px;top:719px" class="cls_017"><span class="cls_017">{!swHours[2]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!swMins!=null && swMins.size=1}" >
-<div style="position:absolute;left:585px;top:721px" class="cls_017"><span class="cls_017">{!swMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:719px" class="cls_017"><span class="cls_017">{!swMins[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!swMins!=null && swMins.size=2}" >
-<div style="position:absolute;left:575px;top:721px" class="cls_017"><span class="cls_017">{!swMins[0]}</span></div>
-<div style="position:absolute;left:585px;top:721px" class="cls_017"><span class="cls_017">{!swMins[1]}</span></div>
+<div style="position:absolute;left:573px;top:719px" class="cls_017"><span class="cls_017">{!swMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:719px" class="cls_017"><span class="cls_017">{!swMins[1]}</span></div>
 </apex:outputPanel>
 <!-- END SECTION P (part 1) -->
 <!-- inputs end -->
@@ -2494,7 +2494,7 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:291px;top:218px" class="cls_017"><span class="cls_017">{!nurMonLess}</span></div>
 <div style="position:absolute;left:291px;top:240px" class="cls_017"><span class="cls_017">{!medAlBrSecAl}</span></div>
 <div style="position:absolute;left:291px;top:255px" class="cls_017"><span class="cls_017">{!skinTret}</span></div>
-<div style="position:absolute;left:298px;top:263px" class="cls_017"><span class="cls_017">{!specDiet}</span></div>
+<div style="position:absolute;left:291px;top:266px" class="cls_017"><span class="cls_017">{!specDiet}</span></div>
 <div style="position:absolute;left:291px;top:278px" class="cls_017"><span class="cls_017">{!notAppl}</span></div>
 
 <!-- Management of equipment (in last 3 days) -->
