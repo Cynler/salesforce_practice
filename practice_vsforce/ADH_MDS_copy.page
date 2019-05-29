@@ -14,15 +14,6 @@ span.cls_002{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weig
 div.cls_002{font-family:Arial,serif;font-size:11.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
 span.cls_006{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
 div.cls_006{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-
-/* Style for automatic inputs */
-span.cls_017{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_017{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-span.cls_018{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-div.cls_018{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-span.cls_019{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_019{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-
 span.cls_003{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
 div.cls_003{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
 span.cls_007{font-family:Arial,serif;font-size:10.7px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
@@ -45,6 +36,9 @@ span.cls_014{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weig
 div.cls_014{font-family:Times,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
 span.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
 div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+/* Style for automatic inputs */
+span.cls_017{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_017{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
 </style>
 </head>
 <body>
@@ -70,10 +64,10 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!--END SECTION AA.  NAME AND IDENTIFICATION NUMBERS-->
 
 <!-- SECTION BB. PERSONAL ITEMS -->
-<div style="position:absolute;left:287px;top:193px" class="cls_017"><span class="cls_018">{!gender}</span></div>
+<div style="position:absolute;left:287px;top:193px" class="cls_017"><span class="cls_017">{!gender}</span></div>
 <div style="position:absolute;left:287px;top:295px" class="cls_017"><span class="cls_017">{!maritalStatus}</span></div>
-<div style="position:absolute;left:287px;top:309px" class="cls_017"><span class="cls_018">{!language}</span></div>
-<div style="position:absolute;left:287px;top:336px" class="cls_017"><span class="cls_018">{!education}</span></div>
+<div style="position:absolute;left:287px;top:309px" class="cls_017"><span class="cls_017">{!language}</span></div>
+<div style="position:absolute;left:287px;top:336px" class="cls_017"><span class="cls_017">{!education}</span></div>
 <div style="position:absolute;left:287px;top:380px;" class="cls_017"><span class="cls_017">{!legGuardian}</span></div>
 <div style="position:absolute;left:287px;top:394px;" class="cls_017"><span class="cls_017">{!advDirective}</span></div>
 <!-- END SECTION BB. PERSONAL ITEMS -->
@@ -252,49 +246,49 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:182.57px;top:260.00px" class="cls_003"><span class="cls_003">White</span></div>
 <div style="position:absolute;left:280.32px;top:261.24px" class="cls_009"><span class="cls_009">e.</span></div>
 
-<div style="position:absolute;left:293.32px;top:261.24px" class="cls_009">
-    <span class="cls_009">
-    
+<div style="position:absolute;left:290.32px;top:258.24px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!(evaluation.ServiceAssignment__r.Person_Being_Served__r.Race__c=='Caucasian')}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:170px;top:262.80px" class="cls_009">
-    <span class="cls_009">
-    
+<div style="position:absolute;left:167px;top:259.80px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!(evaluation.ServiceAssignment__r.Person_Being_Served__r.Race__c=='American Indian/Alaskan')}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:170px;top:273px" class="cls_009">
-    <span class="cls_009">
-    
+<div style="position:absolute;left:167px;top:270px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!(evaluation.ServiceAssignment__r.Person_Being_Served__r.Race__c=='Asian/Pacific Islands')}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:170px;top:283.08px" class="cls_009">
-    <span class="cls_009">
-    
+<div style="position:absolute;left:167px;top:280.08px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!(evaluation.ServiceAssignment__r.Person_Being_Served__r.Race__c=='African American')}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:293.32px;top:283.08px" class="cls_009">
-    <span class="cls_009">
-    
+<div style="position:absolute;left:290.32px;top:280.08px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!(evaluation.ServiceAssignment__r.Person_Being_Served__r.Race__c=='Hispanic')}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 
@@ -614,39 +608,39 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 
 <!-- Caregiver status -->
 <div style="position:absolute;left:584px;top:122px" class="cls_017">
-    <span class="cls_019">
-    
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Caregiver Support~Caregiver Support~primStatus'].Text_Over_250__c,'caregiver is unable to continue'),true,false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:584px;top:137px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:584px;top:137px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Caregiver Support~Caregiver Support~primStatus'].Text_Over_250__c,'Primary caregiver is not satisfied'),true,false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:584px;top:151px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:584px;top:151px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Caregiver Support~Caregiver Support~primStatus'].Text_Over_250__c,'expresses feelings of distress'),true,false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:584px;top:165px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:584px;top:165px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Caregiver Support~Caregiver Support~primStatus'].Text_Over_250__c,'None of the above'),true,false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 
@@ -675,19 +669,19 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 
 <!-- SECTION H (only part 1) -->
 <div style="position:absolute;left:568px;top:388px" class="cls_017"><span class="cls_017">{!mpPerf}</span></div>
-<div style="position:absolute;left:582px;top:388px" class="cls_017"><span class="cls_017">{!mpDiff}</span></div>
+<div style="position:absolute;left:582px;top:388px" class="cls_017"><span class="cls_017">{!IF(OR(mpPerf='3', mpPerf='8'), '—', mpDiff)}</span></div>
 <div style="position:absolute;left:569px;top:406px" class="cls_017"><span class="cls_017">{!ohPerf}</span></div>
-<div style="position:absolute;left:583px;top:406px" class="cls_017"><span class="cls_017">{!ohDiff}</span></div>
+<div style="position:absolute;left:582px;top:406px" class="cls_017"><span class="cls_017">{!IF(OR(ohPerf='3', ohPerf='8'), '—', ohDiff)}</span></div>
 <div style="position:absolute;left:568px;top:425px" class="cls_017"><span class="cls_017">{!mfPerf}</span></div>
-<div style="position:absolute;left:582px;top:425px" class="cls_017"><span class="cls_017">{!mfDiff}</span></div>
+<div style="position:absolute;left:582px;top:425px" class="cls_017"><span class="cls_017">{!IF(OR(mfPerf='3', mfPerf='8'), '—', mfDiff)}</span></div>
 <div style="position:absolute;left:568px;top:446px" class="cls_017"><span class="cls_017">{!mmPerf}</span></div>
-<div style="position:absolute;left:582px;top:446px" class="cls_017"><span class="cls_017">{!mmDiff}</span></div>
+<div style="position:absolute;left:582px;top:446px" class="cls_017"><span class="cls_017">{!IF(OR(mmPerf='3', mmPerf='8'), '—', mmDiff)}</span></div>
 <div style="position:absolute;left:568px;top:470px" class="cls_017"><span class="cls_017">{!puPerf}</span></div>
-<div style="position:absolute;left:582px;top:470px" class="cls_017"><span class="cls_017">{!puDiff}</span></div>
+<div style="position:absolute;left:582px;top:470px" class="cls_017"><span class="cls_017">{!IF(OR(puPerf='3', puPerf='8'), '—', puDiff)}</span></div>
 <div style="position:absolute;left:568px;top:489px" class="cls_017"><span class="cls_017">{!shPerf}</span></div>
-<div style="position:absolute;left:582px;top:489px" class="cls_017"><span class="cls_017">{!shDiff}</span></div>
+<div style="position:absolute;left:582px;top:489px" class="cls_017"><span class="cls_017">{!IF(OR(shPerf='3', shPerf='8'), '—', shDiff)}</span></div>
 <div style="position:absolute;left:568px;top:508px" class="cls_017"><span class="cls_017">{!tspPerf}</span></div>
-<div style="position:absolute;left:582px;top:508px" class="cls_017"><span class="cls_017">{!tspDiff}</span></div>
+<div style="position:absolute;left:582px;top:508px" class="cls_017"><span class="cls_017">{!IF(OR(tspPerf='3', tspPerf='8'), '—', tspDiff)}</span></div>
 <!-- END SECTION H (only part 1) -->
 
 <!-- inputs end -->
@@ -990,39 +984,39 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 
 <!-- Functional potential -->
 <div style="position:absolute;left:289px;top:437px" class="cls_017">
-    <span class="cls_019">
-    
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~ADL/IADL~ADL/IADL~funcPotential'].Text_Over_250__c,'Client believes'),true,false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:289px;top:455px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:289px;top:455px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~ADL/IADL~ADL/IADL~funcPotential'].Text_Over_250__c,'Caregivers believe'),true,false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:289px;top:471px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:289px;top:471px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~ADL/IADL~ADL/IADL~funcPotential'].Text_Over_250__c,'Good prospects'),true,false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:289px;top:484px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:289px;top:484px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~ADL/IADL~ADL/IADL~funcPotential'].Text_Over_250__c,'None of the above'),true,false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 <!-- END SECTION H -->
@@ -1033,31 +1027,31 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:285px;top:656px" class="cls_017"><span class="cls_017">{!declBladCont}</span></div>
 
 <!-- Bladder devices -->
-<div style="position:absolute;left:289px;top:681px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:289px;top:681px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!evalValMap['ADH PBS Assessment~Genitourinary~Genitourinary~guPads'].Text_Under_250__c=='1'}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:289px;top:695px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:289px;top:695px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!evalValMap['ADH PBS Assessment~Genitourinary~Genitourinary~guIndwell'].Text_Under_250__c=='1'}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:289px;top:709px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:289px;top:709px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!evalValMap['ADH PBS Assessment~Genitourinary~Genitourinary~guPads'].Text_Under_250__c=='0' && evalValMap['ADH PBS Assessment~Genitourinary~Genitourinary~guIndwell'].Text_Under_250__c=='0'}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 
@@ -1100,222 +1094,222 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!--  diagnoses codes -->
 <!-- IDC-9 code 1 -->
 <div style="position:absolute;left:384px;top:465px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>0,diagCodes[0],'')}</span></div>
-<div style="position:absolute;left:522px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[0],'')}</span></div>
-<div style="position:absolute;left:532px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[1],'')}</span></div>
-<div style="position:absolute;left:542px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[2],'')}</span></div>
-<div style="position:absolute;left:552px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[3],'')}</span></div>
-<div style="position:absolute;left:574px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[4],'')}</span></div>
-<div style="position:absolute;left:584px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[5],'')}</span></div>
+<div style="position:absolute;left:522px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCode1!=null && diagCode1.size<=6,diagCode1[0],'')}</span></div>
+<div style="position:absolute;left:532px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCode1!=null && diagCode1.size<=6,diagCode1[1],'')}</span></div>
+<div style="position:absolute;left:542px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCode1!=null && diagCode1.size<=6,diagCode1[2],'')}</span></div>
+<div style="position:absolute;left:552px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCode1!=null && diagCode1.size<=6,diagCode1[3],'')}</span></div>
+<div style="position:absolute;left:574px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCode1!=null && diagCode1.size<=6,diagCode1[4],'')}</span></div>
+<div style="position:absolute;left:584px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCode1!=null && diagCode1.size<=6,diagCode1[5],'')}</span></div>
 <!-- END IDC-9 code 1 -->
 
 <!-- IDC-9 Code 2 -->
 <div style="position:absolute;left:384px;top:479px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>1,diagCodes[1],'')}</span></div>
-<div style="position:absolute;left:522px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[0],'')}</span></div>
-<div style="position:absolute;left:532px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[1],'')}</span></div>
-<div style="position:absolute;left:542px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[2],'')}</span></div>
-<div style="position:absolute;left:552px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[3],'')}</span></div>
-<div style="position:absolute;left:574px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[4],'')}</span></div>
-<div style="position:absolute;left:584px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[5],'')}</span></div>
+<div style="position:absolute;left:522px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCode2!=null && diagCode2.size<=6,diagCode2[0],'')}</span></div>
+<div style="position:absolute;left:532px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCode2!=null && diagCode2.size<=6,diagCode2[1],'')}</span></div>
+<div style="position:absolute;left:542px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCode2!=null && diagCode2.size<=6,diagCode2[2],'')}</span></div>
+<div style="position:absolute;left:552px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCode2!=null && diagCode2.size<=6,diagCode2[3],'')}</span></div>
+<div style="position:absolute;left:574px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCode2!=null && diagCode2.size<=6,diagCode2[4],'')}</span></div>
+<div style="position:absolute;left:584px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCode2!=null && diagCode2.size<=6,diagCode2[5],'')}</span></div>
 <!-- END IDC-9 code 2 -->
 
 <!-- IDC-9 code 3 -->
 <div style="position:absolute;left:384px;top:491px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>2,diagCodes[2],'')}</span></div>
-<div style="position:absolute;left:522px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[0],'')}</span></div>
-<div style="position:absolute;left:532px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[1],'')}</span></div>
-<div style="position:absolute;left:542px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[2],'')}</span></div>
-<div style="position:absolute;left:552px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[0],'')}</span></div>
-<div style="position:absolute;left:574px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[4],'')}</span></div>
-<div style="position:absolute;left:584px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[5],'')}</span></div>
+<div style="position:absolute;left:522px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCode3!=null && diagCode3.size<=6,diagCode3[0],'')}</span></div>
+<div style="position:absolute;left:532px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCode3!=null && diagCode3.size<=6,diagCode3[1],'')}</span></div>
+<div style="position:absolute;left:542px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCode3!=null && diagCode3.size<=6,diagCode3[2],'')}</span></div>
+<div style="position:absolute;left:552px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCode3!=null && diagCode3.size<=6,diagCode3[3],'')}</span></div>
+<div style="position:absolute;left:574px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCode3!=null && diagCode3.size<=6,diagCode3[4],'')}</span></div>
+<div style="position:absolute;left:584px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCode3!=null && diagCode3.size<=6,diagCode3[5],'')}</span></div>
 <!-- END IDC-9 code 3 -->
 
 <!-- IDC-9 code 4 -->
 <div style="position:absolute;left:384px;top:503px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>3,diagCodes[3],'')}</span></div>
-<div style="position:absolute;left:522px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[0],'')}</span></div>
-<div style="position:absolute;left:532px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[1],'')}</span></div>
-<div style="position:absolute;left:542px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[2],'')}</span></div>
-<div style="position:absolute;left:552px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[3],'')}</span></div>
-<div style="position:absolute;left:574px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[4],'')}</span></div>
-<div style="position:absolute;left:584px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[5],'')}</span></div>
+<div style="position:absolute;left:522px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCode4!=null && diagCode4.size==6,diagCode4[0],'')}</span></div>
+<div style="position:absolute;left:532px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCode4!=null && diagCode4.size==6,diagCode4[1],'')}</span></div>
+<div style="position:absolute;left:542px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCode4!=null && diagCode4.size==6,diagCode4[2],'')}</span></div>
+<div style="position:absolute;left:552px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCode4!=null && diagCode4.size==6,diagCode4[3],'')}</span></div>
+<div style="position:absolute;left:574px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCode4!=null && diagCode4.size==6,diagCode4[4],'')}</span></div>
+<div style="position:absolute;left:584px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCode4!=null && diagCode4.size==6,diagCode4[5],'')}</span></div>
 <!-- END IDC-9 code 4 -->
 <!-- END SECTION J -->
 
 <!--  put diagnoses codes in here -->
-  
+
 <!-- SECTION K (parts 1-3) -->
 <!-- Preventative health (last two years) -->
-<div style="position:absolute;left:583px;top:555px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:583px;top:555px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~prevHealth'].Text_Over_250__c,'Blood Pressure'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:583px;top:565px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:583px;top:565px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~prevHealth'].Text_Over_250__c,'Influenza'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:583px;top:575px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:583px;top:575px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~prevHealth'].Text_Over_250__c,'endoscopy'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:583px;top:585px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:583px;top:585px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~prevHealth'].Text_Over_250__c,'mammography'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:583px;top:594px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:583px;top:594px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~prevHealth'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 
 <!-- Problem conditions present on 2 or more days -->
-<div style="position:absolute;left:465px;top:620px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:465px;top:620px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'Diarrhea'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:465px;top:634px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:465px;top:634px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'urinating'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:465px;top:647px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:465px;top:647px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'Fever'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:582px;top:620px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:582px;top:620px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'Loss of Appetite'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:582px;top:632px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:582px;top:632px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'Vomiting'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:582px;top:647px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:582px;top:647px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 
 <!-- Problem conditions -->
-<div style="position:absolute;left:465px;top:688px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:465px;top:688px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Chest Pain'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:465px;top:702px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:465px;top:702px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'bowel movements'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:465px;top:715px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:465px;top:715px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Dizziness'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:465px;top:726px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:465px;top:726px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Edema'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:582px;top:670px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:582px;top:670px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Shortness'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:582px;top:694px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:582px;top:694px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Delusions'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:582px;top:706px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:582px;top:706px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Hallucinations'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:582px;top:718px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:582px;top:718px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 <!-- END SECTION K (parts 1-3) -->
@@ -1613,114 +1607,114 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:286px;top:287px" class="cls_017"><span class="cls_017">{!scTobacco}</span></div>
 
 <!-- Health status indicators -->
-<div style="position:absolute;left:286px;top:312px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:312px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'poor health'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:328px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:328px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'mood or behavior patterns'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:341px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:341px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'flare-up or recurrence'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:357px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:357px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'Treatment changed'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:375px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:375px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'Prognosis'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:388px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:388px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 
 <!-- Other status indicators -->
-<div style="position:absolute;left:286px;top:408px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:408px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'Fearful of family'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:419px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:419px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'Unusually poor'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:430px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:430px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'Unexplained injuries'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:439px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:439px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'Neglected'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:454px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:454px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'Physically restrained'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:467px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:467px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 <!-- END SECTION K -->
@@ -1743,40 +1737,40 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 
 <!-- SECTION M -->
 <!-- Oral status -->
-<div style="position:absolute;left:286px;top:722px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:722px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Nutrition/Hydration~Nutrition/Hydration~nutOralStatus'].Text_Over_250__c,'Problem chewing'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:737px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:737px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Nutrition/Hydration~Nutrition/Hydration~nutOralStatus'].Text_Over_250__c,'Dry Mouth'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:750px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:750px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Nutrition/Hydration~Nutrition/Hydration~nutOralStatus'].Text_Over_250__c,'Problem brushing teeth or dentures'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:286px;top:764px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:286px;top:764px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Nutrition/Hydration~Nutrition/Hydration~nutOralStatus'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 <!-- END SECTION M -->
@@ -1790,58 +1784,58 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:579px;top:131px" class="cls_017"><span class="cls_017">{!stasisUlcRati}</span></div>
 
 <!-- Other skin problems requiring treatment -->
-<div style="position:absolute;left:456px;top:159px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:456px;top:159px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'Burns'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:456px;top:187px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:456px;top:187px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'Open lesions'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:456px;top:209px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:456px;top:209px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'Skin tears'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:579px;top:159px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:579px;top:159px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'Surgical wound'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:579px;top:177px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:579px;top:177px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'Corns, calluses'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:579px;top:192px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:579px;top:192px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'None of the above'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 
@@ -1849,134 +1843,134 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:579px;top:240px" class="cls_017"><span class="cls_017">{!presUlcHist}</span></div>
 
 <!-- Wound/ulcer care -->
-<div style="position:absolute;left:580px;top:263px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:263px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinWCare'].Text_Over_250__c,'Antibiotic, systemic'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:276px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:276px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinWCare'].Text_Over_250__c,'Dressings'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:289px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:289px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinWCare'].Text_Over_250__c,'Surgical wound care'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:307px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:307px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinWCare'].Text_Over_250__c,'pressure relieving device'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:322px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:322px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinWCare'].Text_Over_250__c,'None of the above'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 <!-- END SECTION N -->
 
 <!-- SECTION O -->
 <!-- Home environment -->
-<div style="position:absolute;left:580px;top:358px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:358px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Lighting in evening'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:378px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:378px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Flooring and carpeting'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:398px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:398px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Bathroom and toilet room'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:418px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:418px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Kitchen'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:439px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:439px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Heating and cooling'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:458px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:458px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Personal safety'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:472px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:472px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Access to home'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:484px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:484px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Access to rooms in house'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
-<div style="position:absolute;left:580px;top:495px" class="cls_019">
-    <span class="cls_019">
-    
+<div style="position:absolute;left:580px;top:495px" class="cls_017">
+    <span class="cls_017">
+
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'None of the above'), true, false)}">
         X
     </apex:outputpanel>
-    
+
     </span>
 </div>
 
@@ -2533,10 +2527,10 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:291px;top:278px" class="cls_017"><span class="cls_017">{!notAppl}</span></div>
 
 <!-- Management of equipment (in last 3 days) -->
-<div style="position:absolute;left:170px;top:353px" class="cls_017"><span class="cls_017">{!oxym}</span></div>
-<div style="position:absolute;left:170px;top:363px" class="cls_017"><span class="cls_017">{!ivm}</span></div>
-<div style="position:absolute;left:286px;top:353px" class="cls_017"><span class="cls_017">{!cathm}</span></div>
-<div style="position:absolute;left:286px;top:363px" class="cls_017"><span class="cls_017">{!ostomym}</span></div>
+<div style="position:absolute;left:170px;top:350px" class="cls_017"><span class="cls_017">{!oxym}</span></div>
+<div style="position:absolute;left:170px;top:360px" class="cls_017"><span class="cls_017">{!ivm}</span></div>
+<div style="position:absolute;left:286px;top:350px" class="cls_017"><span class="cls_017">{!cathm}</span></div>
+<div style="position:absolute;left:286px;top:360px" class="cls_017"><span class="cls_017">{!ostomym}</span></div>
 
 <!-- Visits in last 90 days or since last assessment -->
 <div style="position:absolute;left:286px;top:389px" class="cls_017"><span class="cls_017">{!timesAdmit}</span></div>
@@ -2551,13 +2545,15 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 
 <!-- Trade offs -->
 <div style="position:absolute;left:286px;top:498px" class="cls_017"><span class="cls_017">{!limFundTradeoff}</span></div>
+<!-- END SECTION P -->
 
+<!-- SECTION Q (mostly) -->
 <!-- List of all medications -->
 <div style="position:absolute;left:286px;top:542px" class="cls_017"><span class="cls_017">{!noofMeds}</span></div>
-<div style="position:absolute;left:170px;top:597px" class="cls_017"><span class="cls_017">{!recMedpsyneu}</span></div>
-<div style="position:absolute;left:170px;top:609px" class="cls_017"><span class="cls_017">{!recMedanxi}</span></div>
-<div style="position:absolute;left:286px;top:596px" class="cls_017"><span class="cls_017">{!recMedanDep}</span></div>
-<div style="position:absolute;left:286px;top:610px" class="cls_017"><span class="cls_017">{!recMedhypno}</span></div>
+<div style="position:absolute;left:170px;top:595px" class="cls_017"><span class="cls_017">{!recMedpsyneu}</span></div>
+<div style="position:absolute;left:170px;top:607px" class="cls_017"><span class="cls_017">{!recMedanxi}</span></div>
+<div style="position:absolute;left:286px;top:594px" class="cls_017"><span class="cls_017">{!recMedanDep}</span></div>
+<div style="position:absolute;left:286px;top:608px" class="cls_017"><span class="cls_017">{!recMedhypno}</span></div>
 <div style="position:absolute;left:286px;top:625px" class="cls_017"><span class="cls_017">{!reviMed}</span></div>
 <div style="position:absolute;left:286px;top:654px" class="cls_017"><span class="cls_017">{!alwaysCompAbMed}</span></div>
 <!-- END SECTION Q (mostly) -->
