@@ -1098,10 +1098,45 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:581px;top:451px" class="cls_017"><span class="cls_017">{!noDis}</span></div>
 
 <!--  diagnoses codes -->
+<!-- IDC-9 code 1 -->
 <div style="position:absolute;left:384px;top:465px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>0,diagCodes[0],'')}</span></div>
+<div style="position:absolute;left:522px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[0],'')}</span></div>
+<div style="position:absolute;left:532px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[1],'')}</span></div>
+<div style="position:absolute;left:542px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[2],'')}</span></div>
+<div style="position:absolute;left:552px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[3],'')}</span></div>
+<div style="position:absolute;left:574px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[4],'')}</span></div>
+<div style="position:absolute;left:584px;top:465px" class="cls_017"><span class="cls_017">{!if(diagCodes[0]!=null && diagCode1.size==6,diagCode1[5],'')}</span></div>
+<!-- END IDC-9 code 1 -->
+
+<!-- IDC-9 Code 2 -->
 <div style="position:absolute;left:384px;top:479px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>1,diagCodes[1],'')}</span></div>
+<div style="position:absolute;left:522px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[0],'')}</span></div>
+<div style="position:absolute;left:532px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[1],'')}</span></div>
+<div style="position:absolute;left:542px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[2],'')}</span></div>
+<div style="position:absolute;left:552px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[3],'')}</span></div>
+<div style="position:absolute;left:574px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[4],'')}</span></div>
+<div style="position:absolute;left:584px;top:479px" class="cls_017"><span class="cls_017">{!if(diagCodes[1]!=null && diagCode2.size==6,diagCode2[5],'')}</span></div>
+<!-- END IDC-9 code 2 -->
+
+<!-- IDC-9 code 3 -->
 <div style="position:absolute;left:384px;top:491px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>2,diagCodes[2],'')}</span></div>
+<div style="position:absolute;left:522px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[0],'')}</span></div>
+<div style="position:absolute;left:532px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[1],'')}</span></div>
+<div style="position:absolute;left:542px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[2],'')}</span></div>
+<div style="position:absolute;left:552px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[0],'')}</span></div>
+<div style="position:absolute;left:574px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[4],'')}</span></div>
+<div style="position:absolute;left:584px;top:491px" class="cls_017"><span class="cls_017">{!if(diagCodes[2]!=null && diagCode3.size==6,diagCode3[5],'')}</span></div>
+<!-- END IDC-9 code 3 -->
+
+<!-- IDC-9 code 4 -->
 <div style="position:absolute;left:384px;top:503px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>3,diagCodes[3],'')}</span></div>
+<div style="position:absolute;left:522px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[0],'')}</span></div>
+<div style="position:absolute;left:532px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[1],'')}</span></div>
+<div style="position:absolute;left:542px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[2],'')}</span></div>
+<div style="position:absolute;left:552px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[3],'')}</span></div>
+<div style="position:absolute;left:574px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[4],'')}</span></div>
+<div style="position:absolute;left:584px;top:503px" class="cls_017"><span class="cls_017">{!if(diagCodes[3]!=null && diagCode4.size==6,diagCode4[5],'')}</span></div>
+<!-- END IDC-9 code 4 -->
 <!-- END SECTION J -->
 
 <!--  put diagnoses codes in here -->
