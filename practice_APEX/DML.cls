@@ -1,5 +1,5 @@
-public with sharing class DML {
-    public DML() {
+public with sharing class DMLPrac {
+    public DMLPrac() {
         // Create the account sObject 
         Account acct = new Account(Name='Acme', Phone='(415)555-1212', NumberOfEmployees=100);
         // Insert the account by using DML
@@ -10,8 +10,7 @@ public with sharing class DML {
             new Contact(FirstName='Joe',LastName='Smith',Department='Finance'),
                 new Contact(FirstName='Kathy',LastName='Smith',Department='Technology'),
                 new Contact(FirstName='Caroline',LastName='Roth',Department='Finance'),
-                new Contact(FirstName='Kim',LastName='Shain',Department='Education')};
-                    
+                new Contact(FirstName='Kim',LastName='Shain',Department='Education')};            
         // Bulk insert all contacts with one DML call
         insert conList;
         // List to hold the new contacts to update
@@ -23,11 +22,13 @@ public with sharing class DML {
                 con.Title = 'Financial analyst';
                 // Add updated contact sObject to the list.
                 listToUpdate.add(con);
-            }else if(con.Department == 'Education'){
-                con.Title = 'Teacher';
+            }
+            else if(con.Department == 'Technology') {
+            	con.Title = 'Nerd'; 
                 listToUpdate.add(con);
-            }else{
-                con.Title = 'Nerd';
+            }
+            else{
+                con.Title = 'Teacher';
                 listToUpdate.add(con);
             }
         }
