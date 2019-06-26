@@ -9,13 +9,13 @@ String[] colors2 = new List<String>();
 List<String> colors3 = new List<String> { 'red', 'blue', 'green' };
 
 //Add elements to a list after it has been created 
-List<String> more_colors = new List<String>();
-more_colors.add('purple');
-more_colors.add('orange'); 
+List<String> moreColors = new List<String>();
+moreColors.add('purple');
+moreColors.add('orange'); 
 
 //get elements from a list
-String pigment1 = more_colors.get(0);
-String pigment2 = more_colors[0];
+String pigment1 = moreColors.get(0);
+String pigment2 = moreColors[0];
 
 System.assertEquals( pigment1, pigement2 );
 

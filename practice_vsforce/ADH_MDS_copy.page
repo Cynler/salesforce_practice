@@ -20,8 +20,8 @@ span.cls_017{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weig
 div.cls_017{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
 span.cls_018{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
 div.cls_018{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
-span.cls_019{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
-div.cls_019{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+span.cls_019{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+div.cls_019{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
 
 span.cls_003{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
 div.cls_003{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
@@ -79,12 +79,12 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!-- END SECTION BB. PERSONAL ITEMS -->
 
 <!-- SECTION CC. REFERRAL ITEMS -->
-<div style="position:absolute;left:287px;top:467px;" class="cls_017"><span class="cls_017">{!rfr}</span></div>
-<div style="position:absolute;left:288px;top:549px" class="cls_017"><span class="cls_017">{!timeLastHosSt}</span></div>
-<div style="position:absolute;left:288px;top:587px" class="cls_017"><span class="cls_017">{!whereLived}</span></div>
-<div style="position:absolute;left:288px;top:623px" class="cls_017"><span class="cls_017">{!whoLived}</span></div>
-<div style="position:absolute;left:288px;top:670px" class="cls_017"><span class="cls_017">{!nhp}</span></div>
-<div style="position:absolute;left:288px;top:695px" class="cls_017"><span class="cls_017">{!rh}</span></div>
+<div style="position:absolute;left:287px;top:464px;" class="cls_017"><span class="cls_017">{!rfr}</span></div>
+<div style="position:absolute;left:288px;top:545px" class="cls_017"><span class="cls_017">{!timeLastHosSt}</span></div>
+<div style="position:absolute;left:288px;top:583px" class="cls_017"><span class="cls_017">{!whereLived}</span></div>
+<div style="position:absolute;left:288px;top:620px" class="cls_017"><span class="cls_017">{!whoLived}</span></div>
+<div style="position:absolute;left:288px;top:667px" class="cls_017"><span class="cls_017">{!nhp}</span></div>
+<div style="position:absolute;left:288px;top:691px" class="cls_017"><span class="cls_017">{!rh}</span></div>
 <!-- END SECTION CC. REFERRAL ITEMS -->
 
 <!-- SECTION A. ASSESSMENT INFORMATION -->
@@ -254,47 +254,47 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 
 <div style="position:absolute;left:293.32px;top:261.24px" class="cls_009">
     <span class="cls_009">
-
+    
     <apex:outputpanel layout="none" rendered="{!(evaluation.ServiceAssignment__r.Person_Being_Served__r.Race__c=='Caucasian')}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:170px;top:262.80px" class="cls_009">
     <span class="cls_009">
-
+    
     <apex:outputpanel layout="none" rendered="{!(evaluation.ServiceAssignment__r.Person_Being_Served__r.Race__c=='American Indian/Alaskan')}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:170px;top:273px" class="cls_009">
     <span class="cls_009">
-
+    
     <apex:outputpanel layout="none" rendered="{!(evaluation.ServiceAssignment__r.Person_Being_Served__r.Race__c=='Asian/Pacific Islands')}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:170px;top:283.08px" class="cls_009">
     <span class="cls_009">
-
+    
     <apex:outputpanel layout="none" rendered="{!(evaluation.ServiceAssignment__r.Person_Being_Served__r.Race__c=='African American')}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:293.32px;top:283.08px" class="cls_009">
     <span class="cls_009">
-
+    
     <apex:outputpanel layout="none" rendered="{!(evaluation.ServiceAssignment__r.Person_Being_Served__r.Race__c=='Hispanic')}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 
@@ -599,12 +599,12 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:286px;top:687px" class="cls_017"><span class="cls_017">{!sliveCli}</span></div>
 <div style="position:absolute;left:264px;top:719px" class="cls_017"><span class="cls_017">{!prelCli}</span></div>
 <div style="position:absolute;left:286px;top:719px" class="cls_017"><span class="cls_017">{!srelCli}</span></div>
-<div style="position:absolute;left:264px;top:743px" class="cls_017"><span class="cls_017">{!pemoSup}</span></div>
-<div style="position:absolute;left:286px;top:743px" class="cls_017"><span class="cls_017">{!semoSup}</span></div>
-<div style="position:absolute;left:264px;top:754px" class="cls_017"><span class="cls_017">{!pIADL}</span></div>
-<div style="position:absolute;left:286px;top:754px" class="cls_017"><span class="cls_017">{!sIADL}</span></div>
-<div style="position:absolute;left:264px;top:764px" class="cls_017"><span class="cls_017">{!pADL}</span></div>
-<div style="position:absolute;left:286px;top:764px" class="cls_017"><span class="cls_017">{!sADL}</span></div>
+<div style="position:absolute;left:264px;top:740px" class="cls_017"><span class="cls_017">{!pemoSup}</span></div>
+<div style="position:absolute;left:286px;top:740px" class="cls_017"><span class="cls_017">{!semoSup}</span></div>
+<div style="position:absolute;left:264px;top:751px" class="cls_017"><span class="cls_017">{!pIADL}</span></div>
+<div style="position:absolute;left:286px;top:751px" class="cls_017"><span class="cls_017">{!sIADL}</span></div>
+<div style="position:absolute;left:264px;top:761px" class="cls_017"><span class="cls_017">{!pADL}</span></div>
+<div style="position:absolute;left:286px;top:761px" class="cls_017"><span class="cls_017">{!sADL}</span></div>
 <div style="position:absolute;left:557px;top:67px" class="cls_017"><span class="cls_017">{!pwillAdv}</span></div>
 <div style="position:absolute;left:579px;top:67px" class="cls_017"><span class="cls_017">{!swillAdv}</span></div>
 <div style="position:absolute;left:557px;top:81px" class="cls_017"><span class="cls_017">{!pwillIADL}</span></div>
@@ -615,38 +615,38 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!-- Caregiver status -->
 <div style="position:absolute;left:584px;top:122px" class="cls_017">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Caregiver Support~Caregiver Support~primStatus'].Text_Over_250__c,'caregiver is unable to continue'),true,false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:584px;top:137px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Caregiver Support~Caregiver Support~primStatus'].Text_Over_250__c,'Primary caregiver is not satisfied'),true,false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:584px;top:151px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Caregiver Support~Caregiver Support~primStatus'].Text_Over_250__c,'expresses feelings of distress'),true,false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:584px;top:165px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Caregiver Support~Caregiver Support~primStatus'].Text_Over_250__c,'None of the above'),true,false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 
@@ -965,11 +965,11 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!-- ADL self-performance -->
 <div style="position:absolute;left:285px;top:46px" class="cls_017"><span class="cls_017">{!mobility}</span></div>
 <div style="position:absolute;left:285px;top:64px" class="cls_017"><span class="cls_017">{!transfer}</span></div>
-<div style="position:absolute;left:285px;top:82px" class="cls_017"><span class="cls_017">{!locomotioninH}</span></div>
+<div style="position:absolute;left:285px;top:79px" class="cls_017"><span class="cls_017">{!locomotioninH}</span></div>
 <div style="position:absolute;left:285px;top:97px" class="cls_017"><span class="cls_017">{!locomotionoutH}</span></div>
 <div style="position:absolute;left:285px;top:116px" class="cls_017"><span class="cls_017">{!drUpper}</span></div>
 <div style="position:absolute;left:285px;top:135px" class="cls_017"><span class="cls_017">{!drLower}</span></div>
-<div style="position:absolute;left:285px;top:157px" class="cls_017"><span class="cls_017">{!eating}</span></div>
+<div style="position:absolute;left:285px;top:154px" class="cls_017"><span class="cls_017">{!eating}</span></div>
 <div style="position:absolute;left:285px;top:174px" class="cls_017"><span class="cls_017">{!toiletUse}</span></div>
 <div style="position:absolute;left:285px;top:198px" class="cls_017"><span class="cls_017">{!persHygine}</span></div>
 <div style="position:absolute;left:285px;top:220px" class="cls_017"><span class="cls_017">{!bathing}</span></div>
@@ -991,38 +991,38 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!-- Functional potential -->
 <div style="position:absolute;left:289px;top:437px" class="cls_017">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~ADL/IADL~ADL/IADL~funcPotential'].Text_Over_250__c,'Client believes'),true,false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:289px;top:456px" class="cls_019">
+<div style="position:absolute;left:289px;top:455px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~ADL/IADL~ADL/IADL~funcPotential'].Text_Over_250__c,'Caregivers believe'),true,false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:289px;top:471px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~ADL/IADL~ADL/IADL~funcPotential'].Text_Over_250__c,'Good prospects'),true,false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:289px;top:487px" class="cls_019">
+<div style="position:absolute;left:289px;top:484px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~ADL/IADL~ADL/IADL~funcPotential'].Text_Over_250__c,'None of the above'),true,false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <!-- END SECTION H -->
@@ -1033,31 +1033,31 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:285px;top:656px" class="cls_017"><span class="cls_017">{!declBladCont}</span></div>
 
 <!-- Bladder devices -->
-<div style="position:absolute;left:289px;top:682px" class="cls_019">
+<div style="position:absolute;left:289px;top:681px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!evalValMap['ADH PBS Assessment~Genitourinary~Genitourinary~guPads'].Text_Under_250__c=='1'}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:289px;top:698px" class="cls_019">
+<div style="position:absolute;left:289px;top:695px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!evalValMap['ADH PBS Assessment~Genitourinary~Genitourinary~guIndwell'].Text_Under_250__c=='1'}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:289px;top:709px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!evalValMap['ADH PBS Assessment~Genitourinary~Genitourinary~guPads'].Text_Under_250__c=='0' && evalValMap['ADH PBS Assessment~Genitourinary~Genitourinary~guIndwell'].Text_Under_250__c=='0'}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 
@@ -1068,219 +1068,219 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!-- SECTION J -->
 <!-- Diseases -->
 <div style="position:absolute;left:464px;top:245px" class="cls_017"><span class="cls_017">{!cerebAccid}</span></div>
-<div style="position:absolute;left:464px;top:262px" class="cls_017"><span class="cls_017">{!congHeartFail}</span></div>
+<div style="position:absolute;left:464px;top:259px" class="cls_017"><span class="cls_017">{!congHeartFail}</span></div>
 <div style="position:absolute;left:464px;top:273px" class="cls_017"><span class="cls_017">{!coArtDis}</span></div>
-<div style="position:absolute;left:464px;top:287px" class="cls_017"><span class="cls_017">{!hypTens}</span></div>
-<div style="position:absolute;left:464px;top:298px" class="cls_017"><span class="cls_017">{!irrPulse}</span></div>
-<div style="position:absolute;left:464px;top:309px" class="cls_017"><span class="cls_017">{!perVascdis}</span></div>
-<div style="position:absolute;left:464px;top:335px" class="cls_017"><span class="cls_017">{!alzheimers}</span></div>
+<div style="position:absolute;left:464px;top:283px" class="cls_017"><span class="cls_017">{!hypTens}</span></div>
+<div style="position:absolute;left:464px;top:295px" class="cls_017"><span class="cls_017">{!irrPulse}</span></div>
+<div style="position:absolute;left:464px;top:306px" class="cls_017"><span class="cls_017">{!perVascdis}</span></div>
+<div style="position:absolute;left:464px;top:331px" class="cls_017"><span class="cls_017">{!alzheimers}</span></div>
 <div style="position:absolute;left:464px;top:347px" class="cls_017"><span class="cls_017">{!dementia}</span></div>
-<div style="position:absolute;left:464px;top:364px" class="cls_017"><span class="cls_017">{!hdTrauma}</span></div>
-<div style="position:absolute;left:464px;top:376px" class="cls_017"><span class="cls_017">{!hemiplegia}</span></div>
-<div style="position:absolute;left:464px;top:390px" class="cls_017"><span class="cls_017">{!mulSclerosis}</span></div>
-<div style="position:absolute;left:464px;top:400px" class="cls_017"><span class="cls_017">{!parkinsons}</span></div>
-<div style="position:absolute;left:464px;top:425px" class="cls_017"><span class="cls_017">{!arthritis}</span></div>
-<div style="position:absolute;left:464px;top:437px" class="cls_017"><span class="cls_017">{!hipFrac}</span></div>
+<div style="position:absolute;left:464px;top:363px" class="cls_017"><span class="cls_017">{!hdTrauma}</span></div>
+<div style="position:absolute;left:464px;top:374px" class="cls_017"><span class="cls_017">{!hemiplegia}</span></div>
+<div style="position:absolute;left:464px;top:386px" class="cls_017"><span class="cls_017">{!mulSclerosis}</span></div>
+<div style="position:absolute;left:464px;top:397px" class="cls_017"><span class="cls_017">{!parkinsons}</span></div>
+<div style="position:absolute;left:464px;top:421px" class="cls_017"><span class="cls_017">{!arthritis}</span></div>
+<div style="position:absolute;left:464px;top:433px" class="cls_017"><span class="cls_017">{!hipFrac}</span></div>
 <div style="position:absolute;left:464px;top:451px" class="cls_017"><span class="cls_017">{!otFrac}</span></div>
 <div style="position:absolute;left:581px;top:228px" class="cls_017"><span class="cls_017">{!osteo}</span></div>
-<div style="position:absolute;left:581px;top:253px" class="cls_017"><span class="cls_017">{!cataracts}</span></div>
-<div style="position:absolute;left:581px;top:265px" class="cls_017"><span class="cls_017">{!glaucoma}</span></div>
-<div style="position:absolute;left:581px;top:290px" class="cls_017"><span class="cls_017">{!phycDiag}</span></div>
-<div style="position:absolute;left:581px;top:313px" class="cls_017"><span class="cls_017">{!hiv}</span></div>
-<div style="position:absolute;left:581px;top:326px" class="cls_017"><span class="cls_017">{!pneum}</span></div>
-<div style="position:absolute;left:581px;top:337px" class="cls_017"><span class="cls_017">{!tuberc}</span></div>
+<div style="position:absolute;left:581px;top:251px" class="cls_017"><span class="cls_017">{!cataracts}</span></div>
+<div style="position:absolute;left:581px;top:261px" class="cls_017"><span class="cls_017">{!glaucoma}</span></div>
+<div style="position:absolute;left:581px;top:286px" class="cls_017"><span class="cls_017">{!phycDiag}</span></div>
+<div style="position:absolute;left:581px;top:310px" class="cls_017"><span class="cls_017">{!hiv}</span></div>
+<div style="position:absolute;left:581px;top:322px" class="cls_017"><span class="cls_017">{!pneum}</span></div>
+<div style="position:absolute;left:581px;top:334px" class="cls_017"><span class="cls_017">{!tuberc}</span></div>
 <div style="position:absolute;left:581px;top:351px" class="cls_017"><span class="cls_017">{!urTraInf}</span></div>
 <div style="position:absolute;left:581px;top:383px" class="cls_017"><span class="cls_017">{!cancer}</span></div>
-<div style="position:absolute;left:581px;top:401px" class="cls_017"><span class="cls_017">{!diabetes}</span></div>
-<div style="position:absolute;left:581px;top:412px" class="cls_017"><span class="cls_017">{!empyCopAst}</span></div>
-<div style="position:absolute;left:581px;top:424px" class="cls_017"><span class="cls_017">{!renFai}</span></div>
+<div style="position:absolute;left:581px;top:398px" class="cls_017"><span class="cls_017">{!diabetes}</span></div>
+<div style="position:absolute;left:581px;top:409px" class="cls_017"><span class="cls_017">{!empyCopAst}</span></div>
+<div style="position:absolute;left:581px;top:421px" class="cls_017"><span class="cls_017">{!renFai}</span></div>
 <div style="position:absolute;left:581px;top:438px" class="cls_017"><span class="cls_017">{!thyDis}</span></div>
 <div style="position:absolute;left:581px;top:451px" class="cls_017"><span class="cls_017">{!noDis}</span></div>
 
 <!--  diagnoses codes -->
 <div style="position:absolute;left:384px;top:465px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>0,diagCodes[0],'')}</span></div>
 <div style="position:absolute;left:384px;top:479px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>1,diagCodes[1],'')}</span></div>
-<div style="position:absolute;left:384px;top:492px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>2,diagCodes[2],'')}</span></div>
-<div style="position:absolute;left:384px;top:506px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>3,diagCodes[3],'')}</span></div>
+<div style="position:absolute;left:384px;top:491px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>2,diagCodes[2],'')}</span></div>
+<div style="position:absolute;left:384px;top:503px" class="cls_017"><span class="cls_017">{!if(diagList!= null && diagList.size>3,diagCodes[3],'')}</span></div>
 <!-- END SECTION J -->
 
 <!--  put diagnoses codes in here -->
-
+  
 <!-- SECTION K (parts 1-3) -->
 <!-- Preventative health (last two years) -->
-<div style="position:absolute;left:583px;top:559px" class="cls_019">
+<div style="position:absolute;left:583px;top:555px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~prevHealth'].Text_Over_250__c,'Blood Pressure'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:583px;top:567px" class="cls_019">
+<div style="position:absolute;left:583px;top:565px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~prevHealth'].Text_Over_250__c,'Influenza'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:583px;top:579px" class="cls_019">
+<div style="position:absolute;left:583px;top:575px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~prevHealth'].Text_Over_250__c,'endoscopy'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:583px;top:589px" class="cls_019">
+<div style="position:absolute;left:583px;top:585px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~prevHealth'].Text_Over_250__c,'mammography'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:583px;top:599px" class="cls_019">
+<div style="position:absolute;left:583px;top:594px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~prevHealth'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 
 <!-- Problem conditions present on 2 or more days -->
-<div style="position:absolute;left:465px;top:623px" class="cls_019">
+<div style="position:absolute;left:465px;top:620px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'Diarrhea'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:465px;top:637px" class="cls_019">
+<div style="position:absolute;left:465px;top:634px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'urinating'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:465px;top:650px" class="cls_019">
+<div style="position:absolute;left:465px;top:647px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'Fever'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:582px;top:622px" class="cls_019">
+<div style="position:absolute;left:582px;top:620px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'Loss of Appetite'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:582px;top:635px" class="cls_019">
+<div style="position:absolute;left:582px;top:632px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'Vomiting'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:582px;top:649px" class="cls_019">
+<div style="position:absolute;left:582px;top:647px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast2Days'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 
 <!-- Problem conditions -->
 <div style="position:absolute;left:465px;top:688px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Chest Pain'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:465px;top:705px" class="cls_019">
+<div style="position:absolute;left:465px;top:702px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'bowel movements'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:465px;top:718px" class="cls_019">
+<div style="position:absolute;left:465px;top:715px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Dizziness'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:465px;top:729px" class="cls_019">
+<div style="position:absolute;left:465px;top:726px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Edema'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:582px;top:675px" class="cls_019">
+<div style="position:absolute;left:582px;top:670px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Shortness'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:582px;top:697px" class="cls_019">
+<div style="position:absolute;left:582px;top:694px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Delusions'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:582px;top:710px" class="cls_019">
+<div style="position:absolute;left:582px;top:706px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'Hallucinations'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:582px;top:721px" class="cls_019">
+<div style="position:absolute;left:582px;top:718px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~problLast3Days'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <!-- END SECTION K (parts 1-3) -->
@@ -1578,114 +1578,114 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:286px;top:287px" class="cls_017"><span class="cls_017">{!scTobacco}</span></div>
 
 <!-- Health status indicators -->
-<div style="position:absolute;left:286px;top:315px" class="cls_019">
+<div style="position:absolute;left:286px;top:312px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'poor health'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:286px;top:328px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'mood or behavior patterns'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:286px;top:344px" class="cls_019">
+<div style="position:absolute;left:286px;top:341px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'flare-up or recurrence'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:286px;top:358px" class="cls_019">
+<div style="position:absolute;left:286px;top:357px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'Treatment changed'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:286px;top:375px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'Prognosis'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:286px;top:391px" class="cls_019">
+<div style="position:absolute;left:286px;top:388px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~healthStatusInd'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 
 <!-- Other status indicators -->
-<div style="position:absolute;left:286px;top:411px" class="cls_019">
+<div style="position:absolute;left:286px;top:408px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'Fearful of family'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:286px;top:421px" class="cls_019">
+<div style="position:absolute;left:286px;top:419px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'Unusually poor'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:286px;top:432px" class="cls_019">
+<div style="position:absolute;left:286px;top:430px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'Unexplained injuries'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:286px;top:442px" class="cls_019">
+<div style="position:absolute;left:286px;top:439px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'Neglected'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:286px;top:454px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'Physically restrained'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:286px;top:467px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Health Condition and Preventive Health Measures~Health Condition and Preventive Health Measures~otherStatusInd'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <!-- END SECTION K -->
@@ -1693,14 +1693,14 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!-- SECTION L -->
 <!-- Weight -->
 <div style="position:absolute;left:286px;top:516px" class="cls_017"><span class="cls_017">{!uninWeightl}</span></div>
-<div style="position:absolute;left:286px;top:535px" class="cls_017"><span class="cls_017">{!sevMalNut}</span></div>
-<div style="position:absolute;left:286px;top:546px" class="cls_017"><span class="cls_017">{!morObes}</span></div>
+<div style="position:absolute;left:286px;top:532px" class="cls_017"><span class="cls_017">{!sevMalNut}</span></div>
+<div style="position:absolute;left:286px;top:544px" class="cls_017"><span class="cls_017">{!morObes}</span></div>
 
 <!-- Consumption -->
 <div style="position:absolute;left:286px;top:573px" class="cls_017"><span class="cls_017">{!onemealDay}</span></div>
 <div style="position:absolute;left:286px;top:587px" class="cls_017"><span class="cls_017">{!decrCons}</span></div>
 <div style="position:absolute;left:286px;top:608px" class="cls_017"><span class="cls_017">{!insuffFluidCon}</span></div>
-<div style="position:absolute;left:286px;top:625px" class="cls_017"><span class="cls_017">{!enteralTubF}</span></div>
+<div style="position:absolute;left:286px;top:623px" class="cls_017"><span class="cls_017">{!enteralTubF}</span></div>
 
 <!-- Swallowing -->
 <div style="position:absolute;left:286px;top:640px" class="cls_017"><span class="cls_017">{!swallowing}</span></div>
@@ -1710,38 +1710,38 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!-- Oral status -->
 <div style="position:absolute;left:286px;top:722px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Nutrition/Hydration~Nutrition/Hydration~nutOralStatus'].Text_Over_250__c,'Problem chewing'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:286px;top:740px" class="cls_019">
+<div style="position:absolute;left:286px;top:737px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Nutrition/Hydration~Nutrition/Hydration~nutOralStatus'].Text_Over_250__c,'Dry Mouth'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:286px;top:752px" class="cls_019">
+<div style="position:absolute;left:286px;top:750px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Nutrition/Hydration~Nutrition/Hydration~nutOralStatus'].Text_Over_250__c,'Problem brushing teeth or dentures'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:286px;top:765px" class="cls_019">
+<div style="position:absolute;left:286px;top:764px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Nutrition/Hydration~Nutrition/Hydration~nutOralStatus'].Text_Over_250__c,'None'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <!-- END SECTION M -->
@@ -1757,56 +1757,56 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!-- Other skin problems requiring treatment -->
 <div style="position:absolute;left:456px;top:159px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'Burns'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:456px;top:187px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'Open lesions'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:456px;top:209px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'Skin tears'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:579px;top:159px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'Surgical wound'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:579px;top:177px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'Corns, calluses'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:579px;top:195px" class="cls_019">
+<div style="position:absolute;left:579px;top:192px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinOtherProb'].Text_Over_250__c,'None of the above'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 
@@ -1814,49 +1814,49 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:579px;top:240px" class="cls_017"><span class="cls_017">{!presUlcHist}</span></div>
 
 <!-- Wound/ulcer care -->
-<div style="position:absolute;left:580px;top:265px" class="cls_019">
+<div style="position:absolute;left:580px;top:263px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinWCare'].Text_Over_250__c,'Antibiotic, systemic'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:580px;top:276px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinWCare'].Text_Over_250__c,'Dressings'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:580px;top:291px" class="cls_019">
+<div style="position:absolute;left:580px;top:289px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinWCare'].Text_Over_250__c,'Surgical wound care'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:580px;top:307px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinWCare'].Text_Over_250__c,'pressure relieving device'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:580px;top:323px" class="cls_019">
+<div style="position:absolute;left:580px;top:322px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Skin Condition~Skin Condition~skinWCare'].Text_Over_250__c,'None of the above'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <!-- END SECTION N -->
@@ -1865,222 +1865,222 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <!-- Home environment -->
 <div style="position:absolute;left:580px;top:358px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Lighting in evening'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:580px;top:378px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Flooring and carpeting'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:580px;top:398px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Bathroom and toilet room'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:580px;top:418px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Kitchen'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 <div style="position:absolute;left:580px;top:439px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Heating and cooling'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:580px;top:459px" class="cls_019">
+<div style="position:absolute;left:580px;top:458px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Personal safety'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:580px;top:474px" class="cls_019">
+<div style="position:absolute;left:580px;top:472px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Access to home'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:580px;top:486px" class="cls_019">
+<div style="position:absolute;left:580px;top:484px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'Access to rooms in house'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
-<div style="position:absolute;left:580px;top:499px" class="cls_019">
+<div style="position:absolute;left:580px;top:495px" class="cls_019">
     <span class="cls_019">
-
+    
     <apex:outputpanel layout="none" rendered="{!if(CONTAINS(evalValMap['ADH PBS Assessment~Environmental Assessment~Environmental Assessment~envRisk'].Text_Over_250__c,'None of the above'), true, false)}">
         X
     </apex:outputpanel>
-
+    
     </span>
 </div>
 
 <!-- Living arrangement -->
 <div style="position:absolute;left:579px;top:510px" class="cls_017"><span class="cls_017">{!livewithDiffP}</span></div>
-<div style="position:absolute;left:579px;top:548px" class="cls_017"><span class="cls_017">{!bettAnothEnv}</span></div>
+<div style="position:absolute;left:579px;top:547px" class="cls_017"><span class="cls_017">{!bettAnothEnv}</span></div>
 <!-- END SECTION O -->
 
 <!-- SECTION P (part 1) -->
 <!-- Formal care -->
-<div style="position:absolute;left:530px;top:617px" class="cls_017"><span class="cls_017">{!hhaDays}</span></div>
-<div style="position:absolute;left:530px;top:628px" class="cls_017"><span class="cls_017">{!vnDays}</span></div>
-<div style="position:absolute;left:530px;top:640px" class="cls_017"><span class="cls_017">{!hsDays}</span></div>
-<div style="position:absolute;left:530px;top:651px" class="cls_017"><span class="cls_017">{!meDays}</span></div>
-<div style="position:absolute;left:530px;top:663px" class="cls_017"><span class="cls_017">{!vsDays}</span></div>
-<div style="position:absolute;left:530px;top:675px" class="cls_017"><span class="cls_017">{!ptDays}</span></div>
-<div style="position:absolute;left:530px;top:687px" class="cls_017"><span class="cls_017">{!otDays}</span></div>
-<div style="position:absolute;left:530px;top:698px" class="cls_017"><span class="cls_017">{!stDays}</span></div>
-<div style="position:absolute;left:530px;top:710px" class="cls_017"><span class="cls_017">{!dcDays}</span></div>
-<div style="position:absolute;left:530px;top:723px" class="cls_017"><span class="cls_017">{!swDays}</span></div>
+<div style="position:absolute;left:530px;top:614px" class="cls_017"><span class="cls_017">{!hhaDays}</span></div>
+<div style="position:absolute;left:530px;top:625px" class="cls_017"><span class="cls_017">{!vnDays}</span></div>
+<div style="position:absolute;left:530px;top:637px" class="cls_017"><span class="cls_017">{!hsDays}</span></div>
+<div style="position:absolute;left:530px;top:648px" class="cls_017"><span class="cls_017">{!meDays}</span></div>
+<div style="position:absolute;left:530px;top:660px" class="cls_017"><span class="cls_017">{!vsDays}</span></div>
+<div style="position:absolute;left:530px;top:672px" class="cls_017"><span class="cls_017">{!ptDays}</span></div>
+<div style="position:absolute;left:530px;top:684px" class="cls_017"><span class="cls_017">{!otDays}</span></div>
+<div style="position:absolute;left:530px;top:695px" class="cls_017"><span class="cls_017">{!stDays}</span></div>
+<div style="position:absolute;left:530px;top:707px" class="cls_017"><span class="cls_017">{!dcDays}</span></div>
+<div style="position:absolute;left:530px;top:720px" class="cls_017"><span class="cls_017">{!swDays}</span></div>
 <!-- a -->
 <apex:outputPanel rendered="{!hhaHours!=null && hhaHours.size=1}" >
-<div style="position:absolute;left:565px;top:617px" class="cls_017"><span class="cls_017">{!hhaHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:614px" class="cls_017"><span class="cls_017">{!hhaHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!hhaHours!=null && hhaHours.size=2}" >
-<div style="position:absolute;left:553px;top:617px" class="cls_017"><span class="cls_017">{!hhaHours[0]}</span></div>
-<div style="position:absolute;left:565px;top:617px" class="cls_017"><span class="cls_017">{!hhaHours[1]}</span></div>
+<div style="position:absolute;left:553px;top:614px" class="cls_017"><span class="cls_017">{!hhaHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:614px" class="cls_017"><span class="cls_017">{!hhaHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!hhaHours!=null && hhaHours.size=3}" >
-<div style="position:absolute;left:544px;top:617px" class="cls_017"><span class="cls_017">{!hhaHours[0]}</span></div>
-<div style="position:absolute;left:553px;top:617px" class="cls_017"><span class="cls_017">{!hhaHours[1]}</span></div>
-<div style="position:absolute;left:565px;top:617px" class="cls_017"><span class="cls_017">{!hhaHours[2]}</span></div>
+<div style="position:absolute;left:542px;top:614px" class="cls_017"><span class="cls_017">{!hhaHours[0]}</span></div>
+<div style="position:absolute;left:553px;top:614px" class="cls_017"><span class="cls_017">{!hhaHours[1]}</span></div>
+<div style="position:absolute;left:562px;top:614px" class="cls_017"><span class="cls_017">{!hhaHours[2]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!hhaMins!=null && hhaMins.size=1}" >
-<div style="position:absolute;left:585px;top:617px" class="cls_017"><span class="cls_017">{!hhaMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:614px" class="cls_017"><span class="cls_017">{!hhaMins[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!hhaMins!=null && hhaMins.size=2}" >
-<div style="position:absolute;left:575px;top:617px" class="cls_017"><span class="cls_017">{!hhaMins[0]}</span></div>
-<div style="position:absolute;left:585px;top:617px" class="cls_017"><span class="cls_017">{!hhaMins[1]}</span></div>
+<div style="position:absolute;left:573px;top:614px" class="cls_017"><span class="cls_017">{!hhaMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:614px" class="cls_017"><span class="cls_017">{!hhaMins[1]}</span></div>
 </apex:outputPanel>
 <!-- b -->
 <apex:outputPanel rendered="{!vnHours!=null && vnHours.size=1}" >
-<div style="position:absolute;left:565px;top:626px" class="cls_017"><span class="cls_017">{!vnHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:626px" class="cls_017"><span class="cls_017">{!vnHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!vnHours!=null && vnHours.size=2}" >
 <div style="position:absolute;left:553px;top:626px" class="cls_017"><span class="cls_017">{!vnHours[0]}</span></div>
-<div style="position:absolute;left:565px;top:626px" class="cls_017"><span class="cls_017">{!vnHours[1]}</span></div>
+<div style="position:absolute;left:562px;top:626px" class="cls_017"><span class="cls_017">{!vnHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!vnHours!=null && vnHours.size=3}" >
-<div style="position:absolute;left:544px;top:626px" class="cls_017"><span class="cls_017">{!vnHours[0]}</span></div>
+<div style="position:absolute;left:542px;top:626px" class="cls_017"><span class="cls_017">{!vnHours[0]}</span></div>
 <div style="position:absolute;left:553px;top:626px" class="cls_017"><span class="cls_017">{!vnHours[1]}</span></div>
-<div style="position:absolute;left:565px;top:626px" class="cls_017"><span class="cls_017">{!vnHours[2]}</span></div>
+<div style="position:absolute;left:562px;top:626px" class="cls_017"><span class="cls_017">{!vnHours[2]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!vnMins!=null && vnMins.size=1}" >
-<div style="position:absolute;left:585px;top:626px" class="cls_017"><span class="cls_017">{!vnMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:626px" class="cls_017"><span class="cls_017">{!vnMins[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!vnMins!=null && vnMins.size=2}" >
-<div style="position:absolute;left:575px;top:626px" class="cls_017"><span class="cls_017">{!vnMins[0]}</span></div>
-<div style="position:absolute;left:585px;top:626px" class="cls_017"><span class="cls_017">{!vnMins[1]}</span></div>
+<div style="position:absolute;left:573px;top:626px" class="cls_017"><span class="cls_017">{!vnMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:626px" class="cls_017"><span class="cls_017">{!vnMins[1]}</span></div>
 </apex:outputPanel>
 <!-- c -->
 <apex:outputPanel rendered="{!hsHours!=null && hsHours.size=1}" >
-<div style="position:absolute;left:565px;top:639px" class="cls_017"><span class="cls_017">{!hsHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:637px" class="cls_017"><span class="cls_017">{!hsHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!hsHours!=null && hsHours.size=2}" >
-<div style="position:absolute;left:553px;top:639px" class="cls_017"><span class="cls_017">{!hsHours[0]}</span></div>
-<div style="position:absolute;left:565px;top:639px" class="cls_017"><span class="cls_017">{!hsHours[1]}</span></div>
+<div style="position:absolute;left:553px;top:637px" class="cls_017"><span class="cls_017">{!hsHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:637px" class="cls_017"><span class="cls_017">{!hsHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!hsHours!=null && hsHours.size=3}" >
-<div style="position:absolute;left:544px;top:639px" class="cls_017"><span class="cls_017">{!hsHours[0]}</span></div>
-<div style="position:absolute;left:553px;top:639px" class="cls_017"><span class="cls_017">{!hsHours[1]}</span></div>
-<div style="position:absolute;left:565px;top:639px" class="cls_017"><span class="cls_017">{!hsHours[2]}</span></div>
+<div style="position:absolute;left:542px;top:637px" class="cls_017"><span class="cls_017">{!hsHours[0]}</span></div>
+<div style="position:absolute;left:553px;top:637px" class="cls_017"><span class="cls_017">{!hsHours[1]}</span></div>
+<div style="position:absolute;left:562px;top:637px" class="cls_017"><span class="cls_017">{!hsHours[2]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!hsMins!=null && hsMins.size=1}" >
-<div style="position:absolute;left:585px;top:639px" class="cls_017"><span class="cls_017">{!hsMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:637px" class="cls_017"><span class="cls_017">{!hsMins[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!hsMins!=null && hsMins.size=2}" >
-<div style="position:absolute;left:575px;top:639px" class="cls_017"><span class="cls_017">{!hsMins[0]}</span></div>
-<div style="position:absolute;left:585px;top:639px" class="cls_017"><span class="cls_017">{!hsMins[1]}</span></div>
+<div style="position:absolute;left:573px;top:637px" class="cls_017"><span class="cls_017">{!hsMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:637px" class="cls_017"><span class="cls_017">{!hsMins[1]}</span></div>
 </apex:outputPanel>
 <!-- d -->
 <apex:outputPanel rendered="{!meHours!=null && meHours.size=1}" >
-<div style="position:absolute;left:565px;top:650px" class="cls_017"><span class="cls_017">{!meHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:648px" class="cls_017"><span class="cls_017">{!meHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!meHours!=null && meHours.size=2}" >
-<div style="position:absolute;left:553px;top:650px" class="cls_017"><span class="cls_017">{!meHours[0]}</span></div>
-<div style="position:absolute;left:565px;top:650px" class="cls_017"><span class="cls_017">{!meHours[1]}</span></div>
+<div style="position:absolute;left:553px;top:648px" class="cls_017"><span class="cls_017">{!meHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:648px" class="cls_017"><span class="cls_017">{!meHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!meHours!=null && meHours.size=3}" >
-<div style="position:absolute;left:544px;top:650px" class="cls_017"><span class="cls_017">{!meHours[0]}</span></div>
-<div style="position:absolute;left:553px;top:650px" class="cls_017"><span class="cls_017">{!meHours[1]}</span></div>
-<div style="position:absolute;left:565px;top:650px" class="cls_017"><span class="cls_017">{!meHours[2]}</span></div>
+<div style="position:absolute;left:542px;top:648px" class="cls_017"><span class="cls_017">{!meHours[0]}</span></div>
+<div style="position:absolute;left:553px;top:648px" class="cls_017"><span class="cls_017">{!meHours[1]}</span></div>
+<div style="position:absolute;left:562px;top:648px" class="cls_017"><span class="cls_017">{!meHours[2]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!meMins!=null && meMins.size=1}" >
-<div style="position:absolute;left:585px;top:650px" class="cls_017"><span class="cls_017">{!meMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:648px" class="cls_017"><span class="cls_017">{!meMins[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!meMins!=null && meMins.size=2}" >
-<div style="position:absolute;left:575px;top:650px" class="cls_017"><span class="cls_017">{!meMins[0]}</span></div>
-<div style="position:absolute;left:585px;top:650px" class="cls_017"><span class="cls_017">{!meMins[1]}</span></div>
+<div style="position:absolute;left:573px;top:648px" class="cls_017"><span class="cls_017">{!meMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:648px" class="cls_017"><span class="cls_017">{!meMins[1]}</span></div>
 </apex:outputPanel>
 <!-- e -->
 <apex:outputPanel rendered="{!vsHours!=null && vsHours.size=1}" >
-<div style="position:absolute;left:565px;top:662px" class="cls_017"><span class="cls_017">{!vsHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:660px" class="cls_017"><span class="cls_017">{!vsHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!vsHours!=null && vsHours.size=2}" >
-<div style="position:absolute;left:553px;top:662px" class="cls_017"><span class="cls_017">{!vsHours[0]}</span></div>
-<div style="position:absolute;left:565px;top:662px" class="cls_017"><span class="cls_017">{!vsHours[1]}</span></div>
+<div style="position:absolute;left:553px;top:660px" class="cls_017"><span class="cls_017">{!vsHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:660px" class="cls_017"><span class="cls_017">{!vsHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!vsHours!=null && vsHours.size=3}" >
-<div style="position:absolute;left:544px;top:662px" class="cls_017"><span class="cls_017">{!vsHours[0]}</span></div>
-<div style="position:absolute;left:553px;top:662px" class="cls_017"><span class="cls_017">{!vsHours[1]}</span></div>
-<div style="position:absolute;left:565px;top:662px" class="cls_017"><span class="cls_017">{!vsHours[2]}</span></div>
+<div style="position:absolute;left:542px;top:660px" class="cls_017"><span class="cls_017">{!vsHours[0]}</span></div>
+<div style="position:absolute;left:553px;top:660px" class="cls_017"><span class="cls_017">{!vsHours[1]}</span></div>
+<div style="position:absolute;left:562px;top:660px" class="cls_017"><span class="cls_017">{!vsHours[2]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!vsMins!=null && vsMins.size=1}" >
-<div style="position:absolute;left:585px;top:662px" class="cls_017"><span class="cls_017">{!vsMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:660px" class="cls_017"><span class="cls_017">{!vsMins[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!vsMins!=null && vsMins.size=2}" >
-<div style="position:absolute;left:575px;top:662px" class="cls_017"><span class="cls_017">{!vsMins[0]}</span></div>
-<div style="position:absolute;left:585px;top:662px" class="cls_017"><span class="cls_017">{!vsMins[1]}</span></div>
+<div style="position:absolute;left:573px;top:660px" class="cls_017"><span class="cls_017">{!vsMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:660px" class="cls_017"><span class="cls_017">{!vsMins[1]}</span></div>
 </apex:outputPanel>
 <!-- f -->
 <apex:outputPanel rendered="{!ptHours!=null && ptHours.size=1}" >
-<div style="position:absolute;left:565px;top:674px" class="cls_017"><span class="cls_017">{!ptHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:672px" class="cls_017"><span class="cls_017">{!ptHours[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!ptHours!=null && ptHours.size=2}" >
-<div style="position:absolute;left:553px;top:674px" class="cls_017"><span class="cls_017">{!ptHours[0]}</span></div>
-<div style="position:absolute;left:565px;top:674px" class="cls_017"><span class="cls_017">{!ptHours[1]}</span></div>
+<div style="position:absolute;left:553px;top:672px" class="cls_017"><span class="cls_017">{!ptHours[0]}</span></div>
+<div style="position:absolute;left:562px;top:672px" class="cls_017"><span class="cls_017">{!ptHours[1]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!ptHours!=null && ptHours.size=3}" >
-<div style="position:absolute;left:544px;top:674px" class="cls_017"><span class="cls_017">{!ptHours[0]}</span></div>
-<div style="position:absolute;left:553px;top:674px" class="cls_017"><span class="cls_017">{!ptHours[1]}</span></div>
-<div style="position:absolute;left:565px;top:674px" class="cls_017"><span class="cls_017">{!ptHours[2]}</span></div>
+<div style="position:absolute;left:542px;top:672px" class="cls_017"><span class="cls_017">{!ptHours[0]}</span></div>
+<div style="position:absolute;left:553px;top:672px" class="cls_017"><span class="cls_017">{!ptHours[1]}</span></div>
+<div style="position:absolute;left:562px;top:672px" class="cls_017"><span class="cls_017">{!ptHours[2]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!ptMins!=null && ptMins.size=1}" >
-<div style="position:absolute;left:585px;top:674px" class="cls_017"><span class="cls_017">{!ptMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:672px" class="cls_017"><span class="cls_017">{!ptMins[0]}</span></div>
 </apex:outputPanel>
 <apex:outputPanel rendered="{!ptMins!=null && ptMins.size=2}" >
-<div style="position:absolute;left:575px;top:674px" class="cls_017"><span class="cls_017">{!ptMins[0]}</span></div>
-<div style="position:absolute;left:585px;top:674px" class="cls_017"><span class="cls_017">{!ptMins[1]}</span></div>
+<div style="position:absolute;left:573px;top:672px" class="cls_017"><span class="cls_017">{!ptMins[0]}</span></div>
+<div style="position:absolute;left:583px;top:672px" class="cls_017"><span class="cls_017">{!ptMins[1]}</span></div>
 </apex:outputPanel>
 <!-- g -->
 <apex:outputPanel rendered="{!otHours!=null && otHours.size=1}" >
@@ -2466,7 +2466,7 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:0px;top:0px">
 <apex:image url="{!URLFOR($Resource.ADHMDS,'index_files/background5.jpg')}" width="782" height="1012"/></div>
 
-<!--  5th page inputs -->
+<!--  Final page inputs -->
 <!-- SECTION P (2 onwards) -->
 <!-- Special treatments, therapies, programs -->
 <div style="position:absolute;left:171px;top:100px" class="cls_017"><span class="cls_017">{!oxygen}</span></div>
@@ -2495,7 +2495,7 @@ div.cls_015{font-family:Arial,serif;font-size:13.1px;color:rgb(0,0,0);font-weigh
 <div style="position:absolute;left:291px;top:240px" class="cls_017"><span class="cls_017">{!medAlBrSecAl}</span></div>
 <div style="position:absolute;left:291px;top:255px" class="cls_017"><span class="cls_017">{!skinTret}</span></div>
 <div style="position:absolute;left:298px;top:263px" class="cls_017"><span class="cls_017">{!specDiet}</span></div>
-<div style="position:absolute;left:291px;top:276px" class="cls_017"><span class="cls_017">{!notAppl}</span></div>
+<div style="position:absolute;left:291px;top:278px" class="cls_017"><span class="cls_017">{!notAppl}</span></div>
 
 <!-- Management of equipment (in last 3 days) -->
 <div style="position:absolute;left:170px;top:353px" class="cls_017"><span class="cls_017">{!oxym}</span></div>
